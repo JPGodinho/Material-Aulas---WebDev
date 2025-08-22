@@ -43,6 +43,8 @@ function addPost(e){
 
     posts.unshift(postNovo)
 
+    document.querySelector('#postForm')
+
     mostrarPosts()
 }
 
